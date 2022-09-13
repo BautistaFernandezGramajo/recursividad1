@@ -62,17 +62,16 @@ public class Terreno {
     }
 
     // Propias del Tipo
-    
-    public double perimetro(){
-        return 2*base+2*altura;
+    public double perimetro() {
+        return 2 * base + 2 * altura;
     }
-    
-    public double superficie(){
-       return base * altura;
+
+    public double superficie() {
+        return base * altura;
     }
-    
-    public double precio(double precio){
+
+    public double precio(double precio) {
         return precio * this.superficie();
     }
-    
+
 }
