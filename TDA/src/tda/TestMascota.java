@@ -21,7 +21,7 @@ public class TestMascota {
         System.out.print("Ingrese la edad de la mascota: ");
         edad = sc.nextInt();
 
-        Mascota michi = new Mascota(codigo, nombre, peso, edad);
+        Mascota2 michi = new Mascota2(codigo, nombre, peso, edad);
 
         int opcion;
         System.out.print("Ingrese la opcion deseada: ");

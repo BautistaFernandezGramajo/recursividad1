@@ -1,20 +1,20 @@
 package tda;
 
-public class Mascota {
+public class Mascota2 {
 
     private int codigo;
     private String nombre;
     private double peso;
     private int edad;
 
-    public Mascota(int cod) {
+    public Mascota2(int cod) {
         codigo = cod;
         nombre = "";
         peso = 0;
         edad = 0;
     }
 
-    public Mascota(int cod, String nn, double pe, int ed) {
+    public Mascota2(int cod, String nn, double pe, int ed) {
         codigo = cod;
         nombre = nn;
         peso = pe;
@@ -62,7 +62,7 @@ public class Mascota {
     }
     
     // Propios del tipo
-    public boolean equals(Mascota otraMascota){
+    public boolean equals(Mascota2 otraMascota){
         return (codigo == otraMascota.getCodigo());
     }
     
